@@ -1,12 +1,10 @@
-Models Tested:
+Models:
 1. Logistic Regression
 2. Random Forest
 
-Best Accuracy:
 Logistic Regression - 82%
 
-Best Churn Detection:
+Unbalanced Logistic Regression - Recall 57%
 Balanced Logistic Regression - Recall 80%
 
-Final Model Selected:
-Balanced Logistic Regression because churn detection is the business priority.
+Balanced Logistic Regression is best because churn detection is the business priority.
