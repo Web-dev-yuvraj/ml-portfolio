@@ -30,7 +30,7 @@ y= data['Churn']
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-model = LogisticRegression(max_iter=1000,class_weight="balanced")
+model = LogisticRegression(max_iter=1000)
 scaler = StandardScaler()
 xtrain_scaled = scaler.fit_transform(x_train)
 xtest_scaled = scaler.transform(x_test)
